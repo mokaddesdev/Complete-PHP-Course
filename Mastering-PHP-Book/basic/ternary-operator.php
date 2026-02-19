@@ -20,7 +20,7 @@
  $final_price = $total_price - ( $total_price * $discount );
  echo 'final price: ' . $final_price;
 
- //? user age group identity
+ //? user age group identity                                                                         
  $age = 17;
  $age_group =  ( $age > 18 ) ? 'Adult Group' : 'Child Group';
  echo 'You are added ' . $age_group;
