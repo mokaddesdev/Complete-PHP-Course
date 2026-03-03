@@ -135,3 +135,65 @@ if ( $phonePrice1 < $phonePrice2 ) {
 } else{
     echo "Phone price is not lower.";
 }
+echo "\n";
+
+//! greater than ( > )
+$numberOne = 30;
+$numberTwo = 20;
+ if ( $numberOne > $numberTwo ) {
+    echo "$numberOne is greater than $numberTwo";
+ } else {
+    echo "$numberOne is not greater than $numberTwo";
+ }
+ echo "\n";
+
+ // Real life example
+ $scoreOne = 85;
+ $scoreTwo = 70;
+
+ if ( $scoreOne > $scoreTwo ) {
+    echo "$scoreOne is greater than $scoreTwo";
+ } else {
+     echo "$scoreOne is not greater than $scoreTwo";
+ }
+  echo "\n";
+
+ $temperature1 = 90;
+ $temperature2 = 80;
+  if ( $temperature1 > $temperature2 ) {
+    echo "$temperature1 is higher";
+  } else {
+    echo "$temperature2 is higher.";
+  }
+   echo "\n";
+
+  //! less than or equal to <= 
+  $bookPrice = 200;
+  $budget    = 300;
+   if ( $bookPrice <= $budget ) {
+    echo 'Mira can buy this book.';
+   } else {
+    echo 'Mira budget is lower than book price';
+   }
+    echo "\n";
+//Real life example
+//? Age limit
+$age = 18;
+$limit = 21;
+
+if (  $age <= $limit ) {
+    echo "You are widthin the age limit.";
+} else {
+    echo 'You are not within the age limit';
+}
+echo "\n";
+
+//? course fee
+$fee = 150;
+$totalBudget = 200;
+ if ( $fee <= $totalBudget ) {
+    echo 'Fee is within budget.';
+ } else {
+    echo 'fee is not withijn budget.';
+ }
+ echo "\n";
