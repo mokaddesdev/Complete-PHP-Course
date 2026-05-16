@@ -22,3 +22,5 @@ $container ->addServiceProvider(new AppServiceProvider());
 $app = new App();
 
 $app->run();
+
+//! Example of auto load without register and provider in AppServiceProvider
